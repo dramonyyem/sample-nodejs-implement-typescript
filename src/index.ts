@@ -6,8 +6,13 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.get("/", (req: Request, res: Response) => {
-  res.send("Welcome to the TypeScript API!");
+
+app.get("/api/test", (req: Request, res: Response) => {
+    res.send({testing:"helloworld"});
+});
+
+app.get("/api/users", (req: Request, res: Response) => {
+    res.send({user:"yem-daramony"});
 });
 
 app.listen(PORT, () => {

@@ -7,9 +7,9 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true, // Prevent import case mistakes
-    "moduleResolution": "node",               // Required for resolving node_modules correctly
-    "resolveJsonModule": true,                // Allow importing .json files
-    "sourceMap": true                         // Generate .map files for debugging
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true
   }
 }
