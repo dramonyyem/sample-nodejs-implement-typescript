@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true, // Prevent import case mistakes
+    "moduleResolution": "node",               // Required for resolving node_modules correctly
+    "resolveJsonModule": true,                // Allow importing .json files
+    "sourceMap": true                         // Generate .map files for debugging
+  }
+}
